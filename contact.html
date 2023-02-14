@@ -53,12 +53,13 @@
         }
 
         .center1 {
-            height: auto;
-            width: auto;
+            height: 600px;
+            width: 800px;
 
             align-items: center;
-            margin-right: 700px;
+            margin-right: 600px;
             margin-top: 10px;
+            background-color:darkslategray;
 
           
             float: right;
@@ -83,7 +84,7 @@
             height: 620px;
             margin-top: 0px;
 
-          
+           
             margin-bottom: 0px;
             background-color: lightblue;
             font-size: 18px;
@@ -101,28 +102,24 @@
 
         }
 
-        .centerleft {
-            height: 300px;
-            width: 500px;
-          
-            margin-top: 10px;
-            margin-left: 80px;
-        }
-
-        .centerleft img {
-            height: 300px;
-            width: 500px;
+        
 
 
-        }
 
-        .centerright {
-            height: 200px;
-            width: auto;
-           
-            margin-top: 10px;
-            margin-left: 10px;
-        }
+.container {
+  border: 5px;
+  background-color:dimgray;
+  padding: 10px;
+  margin-top: 20px;
+}
+    fieldset{
+        height: 300px;
+        width: 300px;
+       
+        margin-top: 90px;
+        background-color: burlywood;
+        margin-left: 200px;
+    }
     </style>
 </head>
 
@@ -144,10 +141,40 @@
             </div>
         </div>
         <div class="center1">
-            <div class="centerleft"><img src="img_5terre.jpg">
+           
+            <form>
+       
+                <div>
+                <fieldset>
+                  
+                <label style="color: green;"><strong>Name:</strong></label><br><br>
+                <input type="text"name="ename" placeholder="Enter your name" required><br><br>
+                <label style="color: green;"><strong>Email:</strong></label><br><br>
+                <input type="email" name="email"placeholder="Enter a email" required><br><br>
+                <label style="color: green;"><strong>Contact Number:</strong></label><br><br>
+                <input type="email" name="email"placeholder="Enter a email" required><br><br>
                
-            </div>
-            <div class="centerright"></div>
+               
+                <label class="designation" style="color: green;"><strong>City:</strong></label>
+                <select>
+                    <option>Ahemdabad</option>
+                    <option>Mandsaur</option>
+                    <option>Ratlam</option>
+                    <option>Indore</option>
+                    
+                    </select><br><br>
+                
+               
+        
+            <input type="submit" name="SUBMIT" id="btn" style="color:blueviolet; padding-left:12px;height:33px;" value="ContactUs"><br><br>
+            <label>
+                 
+        </div>
+                
+        </fieldset>
+            </form>
+                
+                  
 
 
         </div>
@@ -197,6 +224,11 @@
                     </ul>
                 </ul>
             </ul>
+
+
+
+
+
 
 
         </div>
